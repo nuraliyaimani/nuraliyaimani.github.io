@@ -1,0 +1,25 @@
+ol.A {list-style-type: square;
+    text-align: left
+}
+
+ol.B {list-style: square;
+text-align: left
+}
+
+ol.C{list-style: square ;list-style-position: inside;
+text-align: center
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
